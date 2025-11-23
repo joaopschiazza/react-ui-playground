@@ -1,7 +1,7 @@
 
-# Assignment SPA Project
+# React UI Playground SPA Project
 
-This is the front-end project for the Assignment Application. It works as the client-side application and connects to the [Assignment API](https://github.com/joaopschias/assignment-api) for backend functionalities, including user authentication, data management, and other API services.
+This is the front-end project for the Assignment Application. It works as the client-side application and connects to the [Nest API Playground](https://github.com/joaopschiazza/nest-api-playground) for backend functionalities, including user authentication, data management, and other API services.
 
 ---
 
@@ -21,7 +21,7 @@ To run and develop the project, ensure the following tools are installed:
 Clone the project repository from GitHub:
 
 ```bash
-git clone https://github.com/joaopschias/assignment.git && cd assignment
+git clone https://github.com/joaopschiazza/react-ui-playground.git && cd react-ui-playground
 ```
 
 #### 2. Install Dependencies
@@ -199,7 +199,7 @@ This approach ensures consistency, reusability, and scalability across the UI by
 
 ### Troubleshooting
 
-- **API Errors**: Ensure the `VITE_API_BASE_URL` in your `.env` file points to a running instance of the [Assignment API](https://github.com/joaopschias/assignment-api).
+- **API Errors**: Ensure the `VITE_API_BASE_URL` in your `.env` file points to a running instance of the [Nest API Playground](https://github.com/joaopschiazza/nest-api-playground).
 - **Port Conflicts**: Change the development server port in `vite.config.js` if `5173` is already in use.
 - **Style or Lint Errors**: Run `npm run fix` / `yarn fix` to auto-fix issues.
 
